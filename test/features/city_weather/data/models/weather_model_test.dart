@@ -35,7 +35,7 @@ void main() {
   test('should return a valid model from json', () async {
     // arrange
     final Map<String, dynamic> jsonMap = json.decode(
-      readJson('helpers\\dummy_data\\dummy_weather_response.json'),
+      readJson('helpers/dummy_data/dummy_weather_response.json'),
     );
     // act
     final resultModel = WeatherModel.fromJson(jsonMap);
