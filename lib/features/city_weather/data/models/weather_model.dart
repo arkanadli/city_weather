@@ -41,4 +41,14 @@ class WeatherModel extends WeatherEntity {
           'humidity': humidity
         }
       };
+
+  WeatherEntity toEntity() => WeatherEntity(
+        cityName: cityName,
+        main: main,
+        description: description,
+        iconCode: iconCode,
+        temperature: temperature,
+        pressure: pressure,
+        humidity: humidity,
+      );
 }
