@@ -53,6 +53,7 @@ void main() {
       expect(textField, findsOneWidget);
       await widgetTester.enterText(textField, 'New York');
       await widgetTester.pump();
+      //assert
       expect(find.text('New York'), findsOneWidget);
     },
   );
