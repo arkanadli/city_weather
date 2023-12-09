@@ -8,8 +8,8 @@ import 'package:mockito/mockito.dart';
 import '../../helpers/test_helper.mocks.dart';
 
 void main() {
-  GetCurrentWeatherUseCase getCurrentWeatherUseCase;
-  MockWeatherRepository mockWeatherRepository;
+  late GetCurrentWeatherUseCase getCurrentWeatherUseCase;
+  late MockWeatherRepository mockWeatherRepository;
 
   setUp(
     () {
